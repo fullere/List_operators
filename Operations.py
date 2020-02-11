@@ -106,9 +106,8 @@ def look_for(list, search):
     for num in list:
         if search == num:
             return True
-        else:
-            return False
-    return
+
+    return False
 
 
 def second_largest(list):
